@@ -2,8 +2,8 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/nopx45/iot.git/controller"
-	"github.com/nopx45/iot.git/entity"
+	"github.com/nopx45/iot/backend/controller"
+	"github.com/nopx45/iot/backend/entity"
 )
 
 func main() {
