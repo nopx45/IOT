@@ -1,0 +1,57 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #1f1f1f; /* พื้นหลังสีดำ */
+  }
+  
+  .login-card {
+    width: 400px;
+    padding: 40px;
+    border-radius: 8px;
+    background: #2b2b2b; /* สีพื้นหลังของการ์ด */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* เงาของการ์ด */
+  }
+  
+  .login-title {
+    text-align: center;
+    margin-bottom: 24px;
+    color: #ffffff; /* สีข้อความเป็นสีขาว */
+  }
+  
+  .login-form {
+    .ant-input {
+      background-color: #3b3b3b; /* สีพื้นหลังของ input */
+      color: #ffffff; /* สีตัวอักษรใน input */
+      border: none;
+    }
+  
+    .ant-input:focus, .ant-input:hover, .ant-input-password:hover {
+      border-color: #1890ff; /* สีเมื่อ hover หรือ focus */
+    }
+  
+    .ant-input-password {
+      background-color: #3b3b3b;
+      color: #ffffff;
+    }
+  
+    .site-form-item-icon {
+      color: rgba(255, 255, 255, 0.6); /* สีของ icon */
+    }
+  }
+  
+  .login-form-button {
+    width: 100%;
+    background-color: #1890ff; /* ปุ่มสีฟ้า */
+    border-color: #1890ff;
+    color: #fff;
+    height: 40px;
+    border-radius: 4px;
+  }
+  
+  .login-form-button:hover {
+    background-color: #40a9ff; /* สีปุ่มเมื่อ hover */
+    border-color: #40a9ff;
+  }
+  
