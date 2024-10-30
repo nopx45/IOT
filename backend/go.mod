@@ -1,4 +1,4 @@
-module backend
+module github.com/nopx45/iot/backend
 
 go 1.23.2
 
